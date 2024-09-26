@@ -93,23 +93,22 @@ section {
 /* Styling for the layout */
 .education-section {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;  /* Stack elements vertically */
+    align-items: center;     /* Center align the content horizontally */
     margin: 20px;
 }
 
-.education-left {
-    text-align: left;
-    flex: 1;
+.education-title {
+    text-align: center;      /* Center title text */
+    margin-bottom: 20px;
 }
 
-.education-right {
-    text-align: center;
-    flex: 2;
+.education-content {
+    text-align: center;      /* Center the text in the content */
 }
 
 .education-item {
-    margin-bottom: 20px; /* Adjusted for better spacing */
+    margin-bottom: 20px;     /* Adjust spacing between items */
 }
 
 
