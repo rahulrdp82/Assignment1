@@ -99,7 +99,7 @@ section {
 }
 
 .education-title {
-    text-align: center;      /* Center title text */
+    text-align: left;      /* Center title text */
     margin-bottom: 20px;
 }
 
