@@ -90,25 +90,25 @@ section {
     line-height: 1.6;
 }
 
-.education-section .education-title {
-    margin-bottom: 10px;
+.education-section {
+    margin-top: 20px;
 }
 
-.education-section .education-title h1 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    color: #444;
+.education-entry {
+    margin-bottom: 20px;
 }
 
-.education-section .Education b {
-    display: block;
-    margin-top: 10px;
+.education-entry b {
+    font-size: 1.2em;
 }
 
-.education-section .Education p {
+.education-details {
+    display: flex;
+    justify-content: space-between;
     margin-left: 20px;
 }
 
-p, a {
-    color: #333;
+.education-details p {
+    margin: 0;
+    font-size: 1em;
 }
