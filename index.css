@@ -91,24 +91,25 @@ section {
 }
 
 .education-section {
-    margin-top: 20px;
+    text-align: 20px;
+}
+
+.education-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 .education-entry {
+    flex: 20px;
     margin-bottom: 20px;
 }
 
 .education-entry b {
+    display: block;
     font-size: 1.2em;
 }
 
-.education-details {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
-}
-
-.education-details p {
+.education-entry p {
     margin: 0;
-    font-size: 1em;
+    line-height: 1.5;
 }
